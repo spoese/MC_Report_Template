@@ -1,2 +1,2 @@
-# MC_Report_Template
-Quarto Template for MC Reports
+# MC Report Template
+Quarto Template for Montgomery College Reports
