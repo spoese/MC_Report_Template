@@ -1,0 +1,56 @@
+---
+title: "MC Template Title"
+author: "Your Name"
+affiliation: "Montgomery College"
+date: last-modified
+title-block-banner: "#51237F"
+toc: true
+number-sections: true
+format: 
+  html:
+    fig-width: 8
+    fig-height: 6
+    page-layout: full
+    embed-resources: true
+editor: visual
+editor_options: 
+  chunk_output_type: console
+execute:
+  echo: false
+  warning: false
+  message: false
+  keep-md: true
+---
+
+```{r}
+#| label: libraries
+
+require(tidyverse)
+require(gt)
+require(mcirp)
+```
+
+```{r}
+#| label: pull_data
+#| cache: true
+
+source("DataPull.R")
+```
+
+## Request Details
+
+**Background:** If it's a data request, grab from "What question(s) are you trying to answer?" and "Purpose of the request"
+
+**Audience:** If it's a data request, grab from "Who is the intended audience?"
+
+**Requester:** Requester name
+
+**Date of Request:** Jan 1, 20xx
+
+**Request Period:** AY20xx-20xx (xx years)
+
+**Request Details:** (Record data from detail section of request in list format)
+
+#### Data Sources
+
+List all tables used.
